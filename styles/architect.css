@@ -7,12 +7,13 @@
     font-optical-sizing: auto;
     font-weight: 400px;
     font-style: normal;
-  }
+}
 
-.navbar{
+/* shared styles */
+.display-flex{
     display: flex;
-    justify-content: space-between;
 }
-nav li a{
-    text-decoration: none;
-}
+
+/* header styles */
+
+/* navbar related styles */
