@@ -109,6 +109,7 @@ main > section{
     color: #ff900e;
 }
 /* responsive media query */
+/* small size divice */
 @media screen and (max-width:576px) {
     .navbar, .nav-links, .teams{
         flex-direction: column;
@@ -123,5 +124,28 @@ main > section{
         margin: 0 auto;
         text-align: center;
         margin-top: 20px;
+    }
+}
+
+/* medium size device */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .navbar{
+        flex-direction: column;
+    }
+    .navbar, .banner{
+        max-width: 100%;
+    }
+    .banner-content{
+        margin: 20px 50px;
+    }
+    .teams{
+        flex-direction: column;
+    }
+    .our-features{
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 20px;
+        margin: 0 50px;
+        max-width: 100%;
     }
 }
